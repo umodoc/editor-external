@@ -1,0 +1,33 @@
+{
+	"name": "@umoteam/editor-external",
+	"version": "1.0.0",
+	"description": "Umo Editor 所依赖的部分模块。",
+	"main": "build.js",
+	"author": {
+		"name": "umodoc",
+		"email": "contact@umodoc.com",
+		"url": "https://umodoc.com"
+	},
+	"license": "MIT",
+	"homepage": "https://umodoc.com",
+	"bugs": {
+		"url": "https://github.com/umodoc/editor-external/issues",
+		"email": "support@umodoc.com"
+	},
+	"scripts": {
+		"build": "node build.js",
+		"publish": "npm run build && npm publish"
+	},
+	"devDependencies": {
+		"@imgly/background-removal-data": "^1.4.5",
+		"jsbarcode": "^3.11.6",
+		"katex": "^0.16.10",
+		"mermaid": "^10.9.1",
+		"monaco-editor": "^0.48.0",
+		"pagedjs": "^0.4.3",
+		"plyr": "^3.7.8",
+		"qrcode-svg": "^1.1.0",
+		"svg64": "^2.0.0",
+		"vue": "^3.4.27"
+	}
+}

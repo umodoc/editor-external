@@ -1,0 +1,4 @@
+# 忽略目录
+.DS_Store
+node_modules/
+*.log
