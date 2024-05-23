@@ -16,7 +16,7 @@
 	},
 	"scripts": {
 		"build": "node build.js",
-		"npm:publish": "npm run build && npm publish"
+		"prepublishOnly": "npm run build"
 	},
 	"devDependencies": {
 		"@imgly/background-removal-data": "1.4.5",
