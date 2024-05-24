@@ -32,7 +32,7 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-2.0.3.tgz#4a2868d75d6d6963e423bcf90b7fd1be343409d3"
   integrity sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==
 
-"@imgly/background-removal-data@1.4.5":
+"@imgly/background-removal-data@1.5.2":
   version "1.4.5"
   resolved "https://registry.yarnpkg.com/@imgly/background-removal-data/-/background-removal-data-1.4.5.tgz#7ae6b2efda2b51bea8aa01dda727093b6a6e8a0e"
   integrity sha512-iRXZpPd7YirbJ4eOZ3SlvbdJkAc/LxVjzWLMHOezmRrVThPJPdPc+Y2kHEAVFEVvpDIuvBDyOfTTFBSJT2QR5w==
@@ -493,15 +493,15 @@
   resolved "https://registry.yarnpkg.com/@types/web-bluetooth/-/web-bluetooth-0.0.20.tgz#f066abfcd1cbe66267cdbbf0de010d8a41b41597"
   integrity sha512-g9gZnnXVq7gM7v3tJCWV/qw7w+KeOlSHAhgF9RytFyifW6AF61hdT2ucrYhPq9hLs5JIryeupHV3qGk95dH9ow==
 
-"@umoteam/editor-external@^1.0.3":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@umoteam/editor-external/-/editor-external-1.1.0.tgz#c68d6c2fd1954b16aa0e7c1565489d3c6be0996f"
-  integrity sha512-Rs7ZwCUtiJzL/528hmQbre4ACqSp2ij79mijgo7yx69alync5KrhTfEkC69M6yYryrowQ32f7/VPRsUG2BunVA==
+"@umoteam/editor-external@^1.2.2":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@umoteam/editor-external/-/editor-external-1.2.1.tgz#641e82a3bb89fbb0828415887349bfef56e700bb"
+  integrity sha512-8IetcemnmYzW1+fZzrpthUjRFbDh2rD8oJQ0owX1JXnUaMpFx+G/hvWgczt/yaqlglfLkL9fsRs7bb1JhuZMPA==
 
-"@umoteam/editor@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@umoteam/editor/-/editor-1.2.0.tgz#1bf665727146d2c0f074436fa8ac93db46d894fb"
-  integrity sha512-VckjpEqE/edAqOVygyszgDlCnaDcvRqwMjlpksANM3cnXaxyaBmrQD7yFjecVlWkBb1eYjAZVTSbvyMn9CdBCQ==
+"@umoteam/editor@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@umoteam/editor/-/editor-1.2.2.tgz#63e3cf4ac3a2f04ec00c02928a08c6f2361fe316"
+  integrity sha512-azX0nYK3VeiyVTEnTOj6aq3mgwOpY+KZOW+LQsrHi8Sq4pPdehU6OWHZ5d1TDXHc+YVgaciYL5X1vZpMHk4l3w==
   dependencies:
     "@humanwhocodes/object-schema" "^2.0.3"
     "@imgly/background-removal" "1.4.5"
@@ -533,11 +533,11 @@
     "@tiptap/pm" "^2.4.0"
     "@tiptap/starter-kit" "^2.4.0"
     "@tiptap/vue-3" "^2.4.0"
-    "@umoteam/editor-external" "^1.0.3"
+    "@umoteam/editor-external" "^1.2.2"
     "@vue-monaco/editor" "^0.0.6"
     "@vueuse/core" "^10.9.0"
     dom-to-image-more "^3.3.0"
-    es-drager "^1.2.10"
+    es-drager "^1.2.11"
     file-saver "^2.0.5"
     file64 "^1.0.3"
     hotkeys-js "^3.13.7"
@@ -1105,10 +1105,10 @@ entities@^4.4.0, entities@^4.5.0:
   resolved "https://registry.yarnpkg.com/entities/-/entities-4.5.0.tgz#5d268ea5e7113ec74c4d033b79ea5a35a488fb48"
   integrity sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==
 
-es-drager@^1.2.10:
-  version "1.2.10"
-  resolved "https://registry.yarnpkg.com/es-drager/-/es-drager-1.2.10.tgz#809beabc886d17c780fb7c38124a14b2609ec1e7"
-  integrity sha512-sBd/f/cJCQBh4BFAkQY6ysAaiWHN4q3Dhjd3+xIt78ofpsmIZP67sOlqyV4ILb+pZ66zGbh/dqBtdwke/fVniw==
+es-drager@^1.2.11:
+  version "1.2.11"
+  resolved "https://registry.yarnpkg.com/es-drager/-/es-drager-1.2.11.tgz#292bc78f40a2061a500f00a30845a2bc645526e6"
+  integrity sha512-36c7+Tz+Z+3NoUzk82M6PL84yA0fIEbz2eRC+qX6TymRLq3ApGdQXdtLZTcPtvXTKjeedJSMgYwb51oRISvrLA==
 
 es5-ext@^0.10.35, es5-ext@^0.10.62, es5-ext@^0.10.64, es5-ext@~0.10.14:
   version "0.10.64"
