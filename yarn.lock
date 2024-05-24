@@ -498,10 +498,10 @@
   resolved "https://registry.yarnpkg.com/@umoteam/editor-external/-/editor-external-1.1.0.tgz#c68d6c2fd1954b16aa0e7c1565489d3c6be0996f"
   integrity sha512-Rs7ZwCUtiJzL/528hmQbre4ACqSp2ij79mijgo7yx69alync5KrhTfEkC69M6yYryrowQ32f7/VPRsUG2BunVA==
 
-"@umoteam/editor@^1.2.0-beta.1":
-  version "1.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@umoteam/editor/-/editor-1.2.0-beta.1.tgz#3ffee3778bdd71b90c475a10b9c1a8864efcdb8f"
-  integrity sha512-pD1XD8PpH3xURYkG7WEjFmyD2u2UYG2/Ttgg7fw9BGL7verB7jcQTmVfh4CaU0ulZh+gbpuNZkeyy3PQl+5D5A==
+"@umoteam/editor@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@umoteam/editor/-/editor-1.2.0.tgz#1bf665727146d2c0f074436fa8ac93db46d894fb"
+  integrity sha512-VckjpEqE/edAqOVygyszgDlCnaDcvRqwMjlpksANM3cnXaxyaBmrQD7yFjecVlWkBb1eYjAZVTSbvyMn9CdBCQ==
   dependencies:
     "@humanwhocodes/object-schema" "^2.0.3"
     "@imgly/background-removal" "1.4.5"
