@@ -1,7 +1,7 @@
 {
 	"name": "@umoteam/editor-external",
-	"version": "1.4.4",
-	"description": "Umo Editor 所依赖的部分模块。",
+	"version": "2.0.0-beta.1",
+	"description": "The modules that Umo Editor depends on. Umo Editor 所依赖的部分模块。",
 	"main": "build.js",
 	"author": {
 		"name": "umodoc",
@@ -20,7 +20,7 @@
 	},
 	"devDependencies": {
 		"@imgly/background-removal-data": "1.4.5",
-		"@umoteam/editor": "^1.4.4",
+		"@umoteam/editor": "@umoteam/editor@latest",
 		"jsbarcode": "^3.11.6",
 		"katex": "^0.16.10",
 		"mermaid": "^10.9.1",
