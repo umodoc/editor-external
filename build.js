@@ -34,8 +34,8 @@ const copyDir = (sourcePath, targetPath) => {
 
 // 定义要复制的文件和目录列表
 const files = [
+	{ from: 'imgly/background-removal-data', to: 'imgly/background-removal-data', npm: false },
 	{ from: '@umoteam/editor/dist/umd', to: 'umo-editor' },
-	{ from: '@imgly/background-removal-data/dist', to: 'imgly/background-removal-data' },
 	{ from: 'monaco-editor/min', to: 'monaco-editor/min' },
 	{ from: 'katex/dist', to: 'katex' },
 	{ from: 'jsbarcode/dist/JsBarcode.all.min.js', to: 'jsbarcode.all.min.js' },
@@ -48,7 +48,7 @@ const files = [
 
 // 循环遍历每个要复制的文件或目录
 files.forEach((item) => {
-	const sourcePath = path.join(__dirname, 'node_modules', item.from);
+	const sourcePath = item.npm === false ? item.from : path.join(__dirname, 'node_modules', item.from);
 	const targetPath = path.join(__dirname, 'libs', item.to);
 
 	// 如果是文件，使用fs.copyFileSync

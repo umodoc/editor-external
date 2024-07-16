@@ -37,25 +37,18 @@
   resolved "https://registry.yarnpkg.com/@eslint/object-schema/-/object-schema-2.1.4.tgz#9e69f8bb4031e11df79e03db09f9dbbae1740843"
   integrity sha512-BsWiH1yFGjXXS2yvrf5LyuoSIIbPrGUWob917o+BTKuZ7qJdxX8aJLRxs1fS9n6r7vESrq1OUqb68dANcFXuQQ==
 
-"@imgly/background-removal-data@1.4.5":
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/@imgly/background-removal-data/-/background-removal-data-1.4.5.tgz#7ae6b2efda2b51bea8aa01dda727093b6a6e8a0e"
-  integrity sha512-iRXZpPd7YirbJ4eOZ3SlvbdJkAc/LxVjzWLMHOezmRrVThPJPdPc+Y2kHEAVFEVvpDIuvBDyOfTTFBSJT2QR5w==
+"@imgly/background-removal@1.5.3":
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/@imgly/background-removal/-/background-removal-1.5.3.tgz#5fb39eb97e0f26fefd6a270b18f771c1c905593d"
+  integrity sha512-Q5DI5EtOvTvsWueimB0XUlkDObdcQsN2hTEsQUnJXym7x7oH8dn1qrOZ6UklJSIHK7hkiqKtaDONvvk0lKVWmA==
   dependencies:
-    onnxruntime-web "~1.17.0"
-
-"@imgly/background-removal@1.4.5":
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/@imgly/background-removal/-/background-removal-1.4.5.tgz#3d8dda715f2d2732e8efea7bc2b8d9ff931cec9d"
-  integrity sha512-rkpID6Uoj7VWk51qwaumDFTO4YjlkwI99EBSyUiJk894hDQAp63KaoDaMSEqUqKehnmvXOVvld8ZH+6qy8XljA==
-  dependencies:
-    "@types/lodash" "~4.14.0"
+    "@types/lodash-es" "^4.17.12"
     "@types/ndarray" "~1.0.14"
     "@types/node" "~20.3.0"
-    lodash "~4.17.0"
+    lodash-es "^4.17.21"
     ndarray "~1.0.0"
-    onnxruntime-web "~1.17.0"
-    zod "~3.21.0"
+    onnxruntime-web "~1.18.0"
+    zod "^3.23.8"
 
 "@intlify/core-base@9.13.1":
   version "9.13.1"
@@ -151,22 +144,22 @@
   resolved "https://registry.yarnpkg.com/@sereneinserenade/tiptap-search-and-replace/-/tiptap-search-and-replace-0.1.1.tgz#7f73ce1b80f2bd067829858dfb08aa8baa5254ae"
   integrity sha512-lVYuCYj8ORUCpv9WD7mmcKGQez/QaGUyCoJReH8Kn8hQo8dJEETo3sC3l7QrsYokoV8VNS42rBh0vj7qbgDg1Q==
 
-"@tiptap-pro/extension-invisible-characters@^2.8.9":
-  version "2.8.9"
-  resolved "https://registry.tiptap.dev/@tiptap-pro%2fextension-invisible-characters/-/extension-invisible-characters-2.8.9.tgz#2b0d5efbf89fd1c0d4570ddfa4adb49556a87277"
-  integrity sha512-RDYunZaKFIREvPeneZojFWkJQ2XIsSwUNWTmy/4fBAC7kv+sSU5nCtF4qxo5tMKJ0sRvB9j2MCrta98m6d4QSA==
+"@tiptap-pro/extension-invisible-characters@^2.10.2":
+  version "2.10.2"
+  resolved "https://registry.tiptap.dev/@tiptap-pro%2fextension-invisible-characters/-/extension-invisible-characters-2.10.2.tgz#6353e8e1e5fdfdad7b85ef57785b240405c8d76e"
+  integrity sha512-H0pl/sUixt+AQbMdFRAYZgRvUgXZcFtto4NuSKBHLLwG05KDBt6/1Tt9KjkPINPRN9m3EVyaLy3HazTNHR6gBw==
 
-"@tiptap-pro/extension-mathematics@^2.8.9":
-  version "2.8.9"
-  resolved "https://registry.tiptap.dev/@tiptap-pro%2fextension-mathematics/-/extension-mathematics-2.8.9.tgz#dd22c73ee110983b32e720703375a2a61f5ce6e7"
-  integrity sha512-uErG0c+V6wBkhVlg+KnDpnGsxHBpFLLK5LNjrvtmgPwCNP2qDIfuUyBtEkbfX7lmdIMVtCf2dTWdvDl+9eZTyg==
+"@tiptap-pro/extension-mathematics@^2.10.2":
+  version "2.10.2"
+  resolved "https://registry.tiptap.dev/@tiptap-pro%2fextension-mathematics/-/extension-mathematics-2.10.2.tgz#a2d16be0e4fd73c064506721d24f542ca4c8710a"
+  integrity sha512-ZYJyjo0nnJU616gcuMOLqdtEROFJI/mf8XpBkfpMMW4DXYTyFThr0c5hMMIpqw44A5C9bJZ7SPYQrEIw2sEWmw==
 
-"@tiptap-pro/extension-table-of-contents@^2.8.9":
-  version "2.8.9"
-  resolved "https://registry.tiptap.dev/@tiptap-pro%2fextension-table-of-contents/-/extension-table-of-contents-2.8.9.tgz#8be3b14ec0a020431b18376513c36b6dc6702d7e"
-  integrity sha512-SXrqeMIOfmHWRoaXH79UmRAjUdcB2qXbMpvFUfvqYb+zTIaGxz051v6B3juaCO+i4tRm97Y/fD5OuF03W36Gqg==
+"@tiptap-pro/extension-table-of-contents@^2.10.2":
+  version "2.10.2"
+  resolved "https://registry.tiptap.dev/@tiptap-pro%2fextension-table-of-contents/-/extension-table-of-contents-2.10.2.tgz#aed1c18c5e7c3bbccc29f9ec1d0da3cc343a7292"
+  integrity sha512-e9hXkEcJIr5yn4MKpFsx+dI7tiOVBiVqZg0Olc+pvTvGlSWkTPagP18gd5biQ8ePishD23jhct4SIYpuXEvFVA==
   dependencies:
-    uuid "^8.3.2"
+    uuid "^10.0.0"
 
 "@tiptap/core@^2.4.0":
   version "2.4.0"
@@ -460,15 +453,22 @@
   dependencies:
     "@types/ms" "*"
 
+"@types/lodash-es@^4.17.12":
+  version "4.17.12"
+  resolved "https://registry.yarnpkg.com/@types/lodash-es/-/lodash-es-4.17.12.tgz#65f6d1e5f80539aa7cfbfc962de5def0cf4f341b"
+  integrity sha512-0NgftHUcV4v34VhXm8QBSftKVXtbkBG3ViCjs6+eJ5a6y6Mi/jiFGPc1sC7QK+9BFhWrURE3EOggmWaSxL9OzQ==
+  dependencies:
+    "@types/lodash" "*"
+
+"@types/lodash@*":
+  version "4.17.7"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.17.7.tgz#2f776bcb53adc9e13b2c0dfd493dfcbd7de43612"
+  integrity sha512-8wTvZawATi/lsmNu10/j2hk1KEP0IvjubqPE3cu1Xz7xfXXt5oCq3SNUz4fMIP4XGF9Ky+Ue2tBA3hcS7LSBlA==
+
 "@types/lodash@4.14.182":
   version "4.14.182"
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.182.tgz#05301a4d5e62963227eaafe0ce04dd77c54ea5c2"
   integrity sha512-/THyiqyQAP9AfARo4pF+aCGcyiQ94tX/Is2I7HofNRqoYLgN1PBoOWu2/zTA5zMxzP5EFutMtWtGAFRKUe961Q==
-
-"@types/lodash@~4.14.0":
-  version "4.14.202"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.202.tgz#f09dbd2fb082d507178b2f2a5c7e74bd72ff98f8"
-  integrity sha512-OvlIYQK9tNneDlS0VN54LLd5uiPCBOp7gS5Z0f1mjoJYBrtStzgmJBxONW3U6OZqdtNzZPmn9BS/7WI7BFFcFQ==
 
 "@types/mdast@^3.0.0":
   version "3.0.15"
@@ -524,17 +524,17 @@
   resolved "https://registry.yarnpkg.com/@types/web-bluetooth/-/web-bluetooth-0.0.20.tgz#f066abfcd1cbe66267cdbbf0de010d8a41b41597"
   integrity sha512-g9gZnnXVq7gM7v3tJCWV/qw7w+KeOlSHAhgF9RytFyifW6AF61hdT2ucrYhPq9hLs5JIryeupHV3qGk95dH9ow==
 
-"@umoteam/editor@@umoteam/editor@2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@umoteam/editor/-/editor-2.1.0.tgz#f2df9f59088b1abe0f0e9b2b93587d0c1382d48a"
-  integrity sha512-7KDEMeBwxBq+FwRdEeG2q0t0zYS9GD/nFZv0FMn4oXhvAAMszlLWvubbEnd3dAd29luvvFBYJ//Gn9ghu4LBig==
+"@umoteam/editor@latest":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@umoteam/editor/-/editor-2.2.0.tgz#4e6ec587976f8593275959c8f6558399ab8ae4b4"
+  integrity sha512-PJQLD4wx8yaAMH7q4k9wVoACz6NECQ3QfE+8ioxgjHyv7igOtB/w7KMGfE77ypB2ibOCRoetP8q9Hc3MCG80bA==
   dependencies:
     "@eslint/object-schema" "^2.1.4"
-    "@imgly/background-removal" "1.4.5"
+    "@imgly/background-removal" "1.5.3"
     "@sereneinserenade/tiptap-search-and-replace" "^0.1.1"
-    "@tiptap-pro/extension-invisible-characters" "^2.8.9"
-    "@tiptap-pro/extension-mathematics" "^2.8.9"
-    "@tiptap-pro/extension-table-of-contents" "^2.8.9"
+    "@tiptap-pro/extension-invisible-characters" "^2.10.2"
+    "@tiptap-pro/extension-mathematics" "^2.10.2"
+    "@tiptap-pro/extension-table-of-contents" "^2.10.2"
     "@tiptap/extension-bubble-menu" "^2.4.0"
     "@tiptap/extension-character-count" "^2.4.0"
     "@tiptap/extension-color" "^2.4.0"
@@ -1385,7 +1385,7 @@ lodash-es@^4.17.21:
   resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
   integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
 
-lodash@^4.17.21, lodash@~4.17.0:
+lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -1717,20 +1717,20 @@ nzh@^1.0.12:
   resolved "https://registry.yarnpkg.com/nzh/-/nzh-1.0.12.tgz#8aebf43757caf9432cc85937f4cd22bee1f27a85"
   integrity sha512-6nOlvAv9qFg0itfqNDJoOUHsItO/bTTGyHUi7DsgX10KG8iY6u8xz3oI7jfu+/v5xcVXIQIucuaoiQ7LI2RRIA==
 
-onnxruntime-common@1.17.3:
-  version "1.17.3"
-  resolved "https://registry.yarnpkg.com/onnxruntime-common/-/onnxruntime-common-1.17.3.tgz#aadc456477873a540ee3d611ae9cd4f3de7c43e5"
-  integrity sha512-IkbaDelNVX8cBfHFgsNADRIq2TlXMFWW+nG55mwWvQT4i0NZb32Jf35Pf6h9yjrnK78RjcnlNYaI37w394ovMw==
+onnxruntime-common@1.18.0:
+  version "1.18.0"
+  resolved "https://registry.yarnpkg.com/onnxruntime-common/-/onnxruntime-common-1.18.0.tgz#b904dc6ff134e7f21a3eab702fac17538f59e116"
+  integrity sha512-lufrSzX6QdKrktAELG5x5VkBpapbCeS3dQwrXbN0eD9rHvU0yAWl7Ztju9FvgAKWvwd/teEKJNj3OwM6eTZh3Q==
 
-onnxruntime-web@~1.17.0:
-  version "1.17.3"
-  resolved "https://registry.yarnpkg.com/onnxruntime-web/-/onnxruntime-web-1.17.3.tgz#943063f9ddad0e5f787bc934938dd6c7fbe4897a"
-  integrity sha512-MSDrNUWgc1biP0YzY488OJ9n/jTMS9EXysgm9Aw4CUj2A836ALbO2J1sgzguWJeVUHTlM6p7tRzo8IGAgaXWKw==
+onnxruntime-web@~1.18.0:
+  version "1.18.0"
+  resolved "https://registry.yarnpkg.com/onnxruntime-web/-/onnxruntime-web-1.18.0.tgz#cd46268d9472f89697da0a3282f13129f0acbfa0"
+  integrity sha512-o1UKj4ABIj1gmG7ae0RKJ3/GT+3yoF0RRpfDfeoe0huzRW4FDRLfbkDETmdFAvnJEXuYDE0YT+hhkia0352StQ==
   dependencies:
     flatbuffers "^1.12.0"
     guid-typescript "^1.0.9"
     long "^5.2.3"
-    onnxruntime-common "1.17.3"
+    onnxruntime-common "1.18.0"
     platform "^1.3.6"
     protobufjs "^7.2.4"
 
@@ -2118,10 +2118,10 @@ url-polyfill@^1.1.12:
   resolved "https://registry.yarnpkg.com/url-polyfill/-/url-polyfill-1.1.12.tgz#6cdaa17f6b022841b3aec0bf8dbd87ac0cd33331"
   integrity sha512-mYFmBHCapZjtcNHW0MDq9967t+z4Dmg5CJ0KqysK3+ZbyoNOWQHksGCTWwDhxGXllkWlOc10Xfko6v4a3ucM6A==
 
-uuid@^8.3.2:
-  version "8.3.2"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
-  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+uuid@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-10.0.0.tgz#5a95aa454e6e002725c79055fd42aaba30ca6294"
+  integrity sha512-8XkAphELsDnEGrDxUOHB3RGvXz6TeuYSGEZBOjtTtPm2lwhGBjLgOzLHB63IUWfBpNucQjND6d3AOudO+H3RWQ==
 
 uuid@^9.0.0:
   version "9.0.1"
@@ -2209,7 +2209,7 @@ web-worker@^1.2.0:
   resolved "https://registry.yarnpkg.com/web-worker/-/web-worker-1.3.0.tgz#e5f2df5c7fe356755a5fb8f8410d4312627e6776"
   integrity sha512-BSR9wyRsy/KOValMgd5kMyr3JzpdeoR9KVId8u5GVlTTAtNChlsE4yTxeY7zMdNSyOmoKBv8NH2qeRY9Tg+IaA==
 
-zod@~3.21.0:
-  version "3.21.4"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.21.4.tgz#10882231d992519f0a10b5dd58a38c9dabbb64db"
-  integrity sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==
+zod@^3.23.8:
+  version "3.23.8"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.23.8.tgz#e37b957b5d52079769fb8097099b592f0ef4067d"
+  integrity sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==
