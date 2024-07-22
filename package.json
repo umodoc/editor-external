@@ -15,7 +15,8 @@
 		"email": "support@umodoc.com"
 	},
 	"scripts": {
-		"build": "node build.js"
+		"build": "node build.js",
+		"prepublishOnly": "npm run build"
 	},
 	"devDependencies": {
 		"@umoteam/editor": "2.3.1",
