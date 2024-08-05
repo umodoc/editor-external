@@ -35,7 +35,7 @@ const copyDir = (sourcePath, targetPath) => {
 // 定义要复制的文件和目录列表
 const files = [
 	{ from: 'imgly/background-removal-data', to: 'imgly/background-removal-data', npm: false },
-	{ from: '@umoteam/editor/dist/umd', to: 'umo-editor' },
+	{ from: '@umoteam/editor/dist', to: 'umo-editor' },
 	{ from: 'monaco-editor/min', to: 'monaco-editor/min' },
 	{ from: 'katex/dist', to: 'katex' },
 	{ from: 'jsbarcode/dist/JsBarcode.all.min.js', to: 'jsbarcode.all.min.js' },
