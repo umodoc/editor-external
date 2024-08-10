@@ -1,6 +1,6 @@
 {
 	"name": "@umoteam/editor-external",
-	"version": "3.0.0",
+	"version": "3.1.0",
 	"description": "The modules that Umo Editor depends on. Umo Editor 所依赖的部分模块。",
 	"main": "build.js",
 	"author": {
@@ -19,15 +19,9 @@
 		"prepublishOnly": "yarn && npm run build"
 	},
 	"devDependencies": {
-		"@umoteam/editor": "3.0.0",
-		"jsbarcode": "^3.11.6",
+		"@umoteam/editor": "3.1.0",
 		"katex": "^0.16.11",
-		"mermaid": "^10.9.1",
 		"monaco-editor": "^0.50.0",
-		"pagedjs": "^0.4.3",
-		"plyr": "^3.7.8",
-		"qrcode-svg": "^1.1.0",
-		"svg64": "^2.0.0",
-		"vue": "^3.4.35"
+		"pagedjs": "^0.4.3"
 	}
 }

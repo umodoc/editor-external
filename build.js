@@ -38,12 +38,7 @@ const files = [
 	{ from: '@umoteam/editor/dist', to: 'umo-editor' },
 	{ from: 'monaco-editor/min', to: 'monaco-editor/min' },
 	{ from: 'katex/dist', to: 'katex' },
-	{ from: 'jsbarcode/dist/JsBarcode.all.min.js', to: 'jsbarcode.all.min.js' },
-	{ from: 'qrcode-svg/dist/qrcode.min.js', to: 'qrcode-svg.min.js' },
-	{ from: 'mermaid/dist/mermaid.min.js', to: 'mermaid.min.js' },
-	{ from: 'plyr/dist/plyr.min.js', to: 'plyr.min.js' },
-	{ from: 'pagedjs/dist/paged.polyfill.min.js', to: 'paged.polyfill.min.js' },
-	{ from: 'vue/dist/vue.global.prod.js', to: 'vue.min.js' }
+	{ from: 'pagedjs/dist/paged.polyfill.min.js', to: 'paged.polyfill.min.js' }
 ];
 
 // 循环遍历每个要复制的文件或目录
