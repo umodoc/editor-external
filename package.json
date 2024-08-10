@@ -1,6 +1,6 @@
 {
 	"name": "@umoteam/editor-external",
-	"version": "3.1.0",
+	"version": "3.1.1",
 	"description": "The modules that Umo Editor depends on. Umo Editor 所依赖的部分模块。",
 	"main": "build.js",
 	"author": {
@@ -19,7 +19,7 @@
 		"prepublishOnly": "yarn && npm run build"
 	},
 	"devDependencies": {
-		"@umoteam/editor": "3.1.0",
+		"@umoteam/editor": "3.1.1",
 		"katex": "^0.16.11",
 		"monaco-editor": "^0.50.0",
 		"pagedjs": "^0.4.3"
