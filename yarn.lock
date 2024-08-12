@@ -472,15 +472,15 @@
   resolved "https://registry.yarnpkg.com/@types/web-bluetooth/-/web-bluetooth-0.0.20.tgz#f066abfcd1cbe66267cdbbf0de010d8a41b41597"
   integrity sha512-g9gZnnXVq7gM7v3tJCWV/qw7w+KeOlSHAhgF9RytFyifW6AF61hdT2ucrYhPq9hLs5JIryeupHV3qGk95dH9ow==
 
-"@umoteam/editor-external@3.1.1":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@umoteam/editor-external/-/editor-external-3.1.0.tgz#20bfacb30fb1d01855fb12d9b947a2a5034113f3"
-  integrity sha512-HzIdxH+HpGRAI2tATEoRFDKXFg2e7L03N9Y/CglxiwoTD6PwMNyw82Bk+gRr+7pgwuX6l7WVSmAEixFwLmi/DA==
-
-"@umoteam/editor@3.1.1":
+"@umoteam/editor-external@3.1.2":
   version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@umoteam/editor/-/editor-3.1.1.tgz#d6a209f7f5c082d8012f340bc3030d0202ea7b6c"
-  integrity sha512-dRUzqBD/2uodQ1iSRgvjKmSG4xzBSqnnwWcxXpXDQ67q5l8NyXCtgWIhpw4uEHlFm6N/TFiByGLVZWo8XAsmvw==
+  resolved "https://registry.yarnpkg.com/@umoteam/editor-external/-/editor-external-3.1.1.tgz#e1cf04fb36aba779f5d4bb14a62e6033bed49f30"
+  integrity sha512-MIxU3WamFbrBFv58hzIrig4chY6JnGkEuZNp75Vu+h7ys9imdniy+EAwcOYXBapODQK8z1CrGFd5+9lWxYhjOg==
+
+"@umoteam/editor@3.1.2":
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/@umoteam/editor/-/editor-3.1.2.tgz#8a7cda62a7836955690dd6d28035fbdd18f480d9"
+  integrity sha512-aKM4hBUZmoEpjCNBnYFTFLy16UMxmJy+QHIOn1X2KCNMZ17EvZWWgtJLo09ccRhnaPXZtolTX2lTKSSTDuwCAA==
   dependencies:
     "@eslint/object-schema" "^2.1.4"
     "@imgly/background-removal" "1.5.3"
@@ -514,7 +514,7 @@
     "@tiptap/pm" "^2.5.8"
     "@tiptap/starter-kit" "^2.5.8"
     "@tiptap/vue-3" "^2.5.8"
-    "@umoteam/editor-external" "3.1.1"
+    "@umoteam/editor-external" "3.1.2"
     "@vue-monaco/editor" "^0.0.6"
     "@vueuse/core" "^10.11.0"
     dom-to-image-more "^3.3.1"
