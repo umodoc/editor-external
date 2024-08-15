@@ -35,10 +35,8 @@ const copyDir = (sourcePath, targetPath) => {
 // 定义要复制的文件和目录列表
 const files = [
 	{ from: 'imgly/background-removal-data', to: 'imgly/background-removal-data', npm: false },
-	{ from: '@umoteam/editor/dist', to: 'umo-editor' },
 	{ from: 'monaco-editor/min', to: 'monaco-editor/min' },
-	{ from: 'katex/dist', to: 'katex' },
-	{ from: 'pagedjs/dist/paged.polyfill.min.js', to: 'paged.polyfill.min.js' }
+	{ from: 'katex/dist', to: 'katex' }
 ];
 
 // 循环遍历每个要复制的文件或目录
