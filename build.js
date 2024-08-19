@@ -36,7 +36,8 @@ const copyDir = (sourcePath, targetPath) => {
 const files = [
 	{ from: 'imgly/background-removal-data', to: 'imgly/background-removal-data', npm: false },
 	{ from: 'monaco-editor/min', to: 'monaco-editor/min' },
-	{ from: 'katex/dist', to: 'katex' }
+	{ from: 'katex/dist', to: 'katex' },
+	{ from: 'mammoth/mammoth.browser.min.js', to: 'mammoth/mammoth.browser.min.js' }
 ];
 
 // 循环遍历每个要复制的文件或目录
@@ -46,6 +47,9 @@ files.forEach((item) => {
 
 	// 如果是文件，使用fs.copyFileSync
 	if (fs.existsSync(sourcePath) && fs.statSync(sourcePath).isFile()) {
+		if (!fs.existsSync(targetPath)) {
+			fs.mkdirSync(path.dirname(targetPath), { recursive: true });
+		}
 		fs.copyFileSync(sourcePath, targetPath);
 		console.log(`Copied file: ${sourcePath} to ${targetPath}`);
 	}
