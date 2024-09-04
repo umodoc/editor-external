@@ -1,6 +1,6 @@
 {
 	"name": "@umoteam/editor-external",
-	"version": "4.1.0",
+	"version": "4.5.0",
 	"description": "The modules that Umo Editor depends on. Umo Editor 所依赖的部分模块。",
 	"main": "build.js",
 	"author": {
